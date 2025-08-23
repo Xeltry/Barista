@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # === Настройки через переменные окружения ===
-TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]         # токен бота от BotFather
+TOKEN = os.environ["8377153990:AAFy4pG_UH109pgfxe_TGAiXTB6waKyU7YE"]         # токен бота от BotFather
 BASE_URL = os.environ["BASE_URL"]                # домен Render, например https://mybot.onrender.com
 PORT = int(os.environ.get("PORT", 10000))        # Render сам подставляет PORT
 
